@@ -66,6 +66,14 @@
   }
 }
 
+/* auth background classes */
+
+@utility background-auth {
+  @apply bg-[url('/images/auth-light.png')] bg-cover bg-no-repeat bg-center dark:bg-[url('/images/auth-dark.png')];
+}
+
+/* auth background classes end here */
+
 @utility background-light850_dark100 {
   @apply bg-light-850 dark:bg-dark-100;
 }
