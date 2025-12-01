@@ -20,7 +20,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             height={50}
           />
         </div>
-        {children}
+        <div className="my-10">{children}</div>
         <SocialAuthForm />
       </section>
     </main>
